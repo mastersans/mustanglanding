@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: Arial,"Helvetica Neue",Helvetica, sans-serif;
+  font-size: 17px;
+  color:#808080;
+  line-height: 1.7;
+}
+#showcase{
+  background-image: url('../mustangwallpaper/mustangwallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+
+}
+#showcase h1{
+  color: #585858;
+  font-size: 50px;
+  line-height: 1.7;
+}
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color:#808080;
+  border: #808080 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#showcase .button:hover{
+  background: #808080;
+  color: #fff;
+  border: #fff 1px solid;
+}
+#section-a{
+  padding: 20px;
+  background: #808080;
+  color: #fff;
+}
+#section-b{
+  padding: 20px;
+}
+#showcase-a{
+  padding: 20px;
+  background: #808080;
+  color: #fff;
+  text-align: center;
+  }
+#showcase-b{
+    padding: 20px;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+
+  }
+#section-c{
+      display: flex;
+
+  }
+#section-c div{
+  padding: 20px;
+}
+#section-c .box-1{
+  background-image: url('../mustangwallpaper/mustang2.jpg');
+  background-size: cover;
+  color: #808080;
+}
+#section-c .box-3{
+  background-image: url('../mustangwallpaper/mustang3.jpg');
+  background-size: cover;
+  color: #808080;
+}
+#section-c .box-2{
+  background-image: url('../mustangwallpaper/mustang1.jpg');
+  background-size: cover;
+}
